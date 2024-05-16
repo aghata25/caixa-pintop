@@ -1,0 +1,249 @@
+.navbar-toggler {
+    border: 1px solid  #097bbb !important;
+}
+
+.bg-nav {
+    background-color: #097bbb !important;
+}
+
+@media screen and (min-width: 769px) {
+    #main {
+      max-width: 540px;
+    }
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(96.33deg, hsla(51, 26%, 85%, .65) 2.57%, hsla(27, 44%, 95%, .65) 47.57%, hsla(37, 26%, 87%, .65) 92.58%), #d5c8bc;
+}
+
+.card {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+
+.card__logo img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card__satisfacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__satisfacao h2, .card__resposta h2 {
+    margin-top: -10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.card__gradeContainer {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.card__grade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+}
+
+.card__gradeDescricao {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin: 5px 0px 20px 0px;
+    color: #7e7e7e;
+}
+
+/* STARS */
+.star {
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.25s ease;
+}
+
+.menu-group {
+    display: flex;
+    gap: 5px;
+}
+
+.menu-group button{
+    width: 50%;
+}
+
+.buttons-container {
+    display: flex;
+  }
+
+.button-one, .button-two {
+    background-color: #ccc; /* Cor de fundo padrão */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-one.selected, .button-two.selected {
+    background-color: #0d6efd; 
+    color: #fff;
+}
+
+#row-catalogo {
+    --bs-gutter-x: 5px;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.product-price {
+    font-size: 12px;
+}
+
+.btn-resgate {
+    width: 100%;
+}
+
+#pergunta7 h2{
+    color: #097bbb;
+}
+
+#pergunta8 {
+    margin-top: 14vw !important;
+}
+
+
+.botao {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FF6500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: pulse 2s infinite alternate; /* Alternância entre crescer e diminuir a cada segundo */
+}
+
+.botao:hover {
+    background-color: #ff5100;
+}
+
+  @keyframes pulse {
+    0% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.botton-red {
+    background-color: #FF0000 !important;
+}
+
+[data-bs-theme=dark] .navbar-toggler-icon {
+    background-image: url("../images/icon-bar.png") !important;
+}
+
+.mt-n3 {
+    margin-top: -30px !important;
+}
+
+.color-main {
+    color: #42464D;
+}
+
+.bg-main {
+    background-color: #097bbb !important;
+}
+
+.no-border {
+    border: none !important;
+}
+
+/* Style star container */
+.rating {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 24px; /* tamanho das estrelas */
+}
+  
+  /* .star {
+    color: gold; 
+  } */
+
+.star-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 #328abd ;
+      transform: scale(1);
+    }
+    50% {
+      box-shadow: 0 0 0 10px rgba(250, 14, 128, 0);
+      transform: scale(1.05);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(250, 14, 128, 0);
+      transform: scale(1);
+    }
+  }
+
+  .btn-resgate-product {
+    width: 80%;
+    padding: 20px !important;
+    animation: pulse 2s infinite;
+    background-color: #FF6500 !important;
+  }
+
+  .product-container {
+    background-color: red;
+    text-align: center;
+  }
+
+  .descricao {
+    margin-top: 20px;
+  }
+
+  .btn-laranja{
+    background-color: #FF6500 !important;
+    color: #f1f1f1 !important;
+  }
